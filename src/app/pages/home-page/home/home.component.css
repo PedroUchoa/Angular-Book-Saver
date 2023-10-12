@@ -1,0 +1,12 @@
+.principal-container{
+  width: 77%;
+  min-height: 100dvh;
+  float: right;
+  padding: 100px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #66ac92;
+}

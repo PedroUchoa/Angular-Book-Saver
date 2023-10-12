@@ -1,0 +1,5 @@
+<div *ngIf="books" class="principal-container">
+ <ul *ngFor="let book of books, let i = index">
+  <app-cards [id]="book.id" [name]="book.name" [image]="book.image" [author]="book.author"></app-cards>
+ </ul>
+</div>

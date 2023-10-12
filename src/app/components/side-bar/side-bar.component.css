@@ -1,0 +1,40 @@
+.side-container {
+  height: 100dvh;
+  width: 23%;
+  background-color: var(--principal);
+  position: fixed;
+  left: 0;
+}
+
+.list-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 30px;
+  list-style: none;
+}
+
+.list-side li a {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--font);
+  padding:  8px 15px;
+
+}
+
+.list-side li a:hover {
+  background-color: white;
+  border-radius: 50px;
+
+}
+
+
+.list-side li a img {
+  height: 25px;
+  margin-bottom: 2px;
+}

@@ -1,11 +1,12 @@
 .nav-container {
   background-color: var(--principal);
-  width: 100vw;
+  width: 100dvw;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  z-index: 10;
+  position: fixed;
 }
 
 .principal {
@@ -29,7 +30,7 @@
 
 .nav-container .logo h1 {
   font-size: 25px;
-  color: #8a7e66;
+  color: var(--font);
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -62,7 +63,7 @@
 }
 
 .search input::placeholder{
-  color: #8a7e66;
+  color: var(--font);
   font-weight: 500;
 }
 
